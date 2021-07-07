@@ -2195,7 +2195,7 @@ public class InAppWebView: WKWebView, UIScrollViewDelegate, WKUIDelegate, WKNavi
         uiDelegate = nil
         navigationDelegate = nil
         scrollView.delegate = nil
-        IAWController?.channel?.setMethodCallHandler(nil)
+//         IAWController?.channel?.setMethodCallHandler(nil)
         IABController?.webView = nil
         IAWController?.webView = nil
         isPausedTimersCompletionHandler = nil
